@@ -68,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
+<<<<<<< HEAD
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
@@ -95,6 +96,9 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+=======
+      body: Container(color: Colors.blue, child: Text('Hello World!')),
+>>>>>>> a6c22b88e3ebe8032fec43e1e01d7216b9e76dcd
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
